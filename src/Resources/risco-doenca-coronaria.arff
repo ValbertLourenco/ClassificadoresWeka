@@ -1,0 +1,68 @@
+% 1. Titulo: IdentificaÁ„o de grupos de risco para doencas coron·rias
+%
+% 2. Numero de instancias: 43
+%
+% 3. Numero de atributos: 3
+%
+% 4. Informa√ß√µes sobre atributos: 5 (Todos continuos)
+%
+% 5. Informa√ß√µes sobre classes: 3 classes
+%
+	
+@relation risco-doenca-coronaria
+
+@attribute pessaoSistolica NUMERIC
+@attribute pressaoDiastolica NUMERIC
+@attribute glicemia NUMERIC
+@attribute colesterol NUMERIC
+@attribute idade NUMERIC
+@attribute risco-class {alto,medio,baixo}
+
+@data
+%
+% 43 instancias
+%
+ 
+80,85,80,195,20,baixo
+80,85,80,195,20,baixo
+80,85,80,195,20,baixo
+90,85,80,195,20,baixo
+90,85,80,195,25,baixo
+90,85,80,190,25,baixo
+90,85,85,190,25,baixo
+100,85,85,190,25,baixo
+100,90,85,190,30,baixo
+100,90,85,190,30,baixo
+100,90,85,185,30,baixo
+110,90,85,185,30,baixo
+110,90,90,185,35,baixo
+110,90,90,185,35,baixo
+110,90,90,185,35,medio
+110,90,90,180,40,medio
+120,95,90,200,40,medio
+120,95,90,200,40,medio
+120,95,95,200,40,medio
+120,95,95,200,45,medio
+120,95,95,200,45,medio
+130,95,95,210,45,medio
+130,95,95,210,45,medio
+130,95,95,210,45,medio
+130,100,100,210,50,medio
+130,100,100,215,50,medio
+140,100,100,220,50,medio
+140,100,100,220,50,medio
+140,100,100,220,50,baixo
+140,100,100,250,55,alto
+140,100,105,250,55,alto
+150,100,105,230,55,medio
+150,105,105,230,55,medio
+150,105,105,230,55,alto
+150,105,105,230,60,alto
+150,105,105,230,60,alto
+150,105,110,240,60,alto
+160,105,110,240,60,alto
+160,105,110,240,65,alto
+160,105,110,250,65,alto
+170,110,110,250,65,alto
+170,110,110,260,65,alto
+180,110,110,260,65,alto
